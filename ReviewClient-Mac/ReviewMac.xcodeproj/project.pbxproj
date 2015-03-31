@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA054A68142D0BBE006C5EAB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA054A67142D0BBE006C5EAB /* Cocoa.framework */; };
+		FA054A72142D0BBE006C5EAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA054A70142D0BBE006C5EAB /* InfoPlist.strings */; };
+		FA054A74142D0BBE006C5EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA054A73142D0BBE006C5EAB /* main.m */; };
+		FA054A78142D0BBE006C5EAB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA054A76142D0BBE006C5EAB /* Credits.rtf */; };
+		FA054A7B142D0BBE006C5EAB /* ReviewMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA054A7A142D0BBE006C5EAB /* ReviewMacAppDelegate.m */; };
+		FA054A7E142D0BBF006C5EAB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA054A7C142D0BBF006C5EAB /* MainMenu.xib */; };
+		FA054A85142D0E5F006C5EAB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA054A84142D0E5F006C5EAB /* WebKit.framework */; };
+		FA1A0B121577C6D300008B84 /* EtherZip.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1A0B111577C6D300008B84 /* EtherZip.m */; };
+		FA2F9EDD1433A93500D996A4 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2F9ED31433A93500D996A4 /* ioapi.c */; };
+		FA2F9EDE1433A93500D996A4 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2F9ED51433A93500D996A4 /* mztools.c */; };
+		FA2F9EDF1433A93500D996A4 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2F9ED71433A93500D996A4 /* unzip.c */; };
+		FA2F9EE01433A93500D996A4 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2F9ED91433A93500D996A4 /* zip.c */; };
+		FA2F9EE41433A94900D996A4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F9EE31433A94900D996A4 /* libz.dylib */; };
+		FABEBEBF144A0EC30000E372 /* RCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FABEBEBE144A0EC30000E372 /* RCLib.m */; };
+		FABEBEFF144BB24E0000E372 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA054A67142D0BBE006C5EAB /* Cocoa.framework */; };
+		FABEBF01144BB24E0000E372 /* InstallerPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABEBF00144BB24E0000E372 /* InstallerPlugins.framework */; };
+		FABEBF07144BB24F0000E372 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABEBF05144BB24F0000E372 /* InfoPlist.strings */; };
+		FABEBF0B144BB24F0000E372 /* InstallerForReviewClientPane.m in Sources */ = {isa = PBXBuildFile; fileRef = FABEBF0A144BB24F0000E372 /* InstallerForReviewClientPane.m */; };
+		FABEBF0E144BB24F0000E372 /* InstallerForReviewClient.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABEBF0C144BB24F0000E372 /* InstallerForReviewClient.xib */; };
+		FABEBF11144BB24F0000E372 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABEBF0F144BB24F0000E372 /* Localizable.strings */; };
+		FABEBF13144BB24F0000E372 /* InstallerSections.plist in Resources */ = {isa = PBXBuildFile; fileRef = FABEBF12144BB24F0000E372 /* InstallerSections.plist */; };
+		FAE53E961450B81D00B26783 /* RCFDLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53E951450B81D00B26783 /* RCFDLib.m */; };
+		FAE53EEA1451C51B00B26783 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE53EE91451C51B00B26783 /* SystemConfiguration.framework */; };
+		FAE53F2214531CAB00B26783 /* RCCS.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE53F2114531CAB00B26783 /* RCCS.m */; };
+		FAE53F2A14533E5600B26783 /* R with eye.psd in Resources */ = {isa = PBXBuildFile; fileRef = FAE53F2914533E5600B26783 /* R with eye.psd */; };
+		FAE53F2D14533F0900B26783 /* ReviewClient.icns in Resources */ = {isa = PBXBuildFile; fileRef = FAE53F2B14533EEC00B26783 /* ReviewClient.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA054A63142D0BBE006C5EAB /* ReviewMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviewMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA054A67142D0BBE006C5EAB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA054A6A142D0BBE006C5EAB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA054A6B142D0BBE006C5EAB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA054A6C142D0BBE006C5EAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA054A6F142D0BBE006C5EAB /* ReviewMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReviewMac-Info.plist"; sourceTree = "<group>"; };
+		FA054A71142D0BBE006C5EAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA054A73142D0BBE006C5EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA054A75142D0BBE006C5EAB /* ReviewMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReviewMac-Prefix.pch"; sourceTree = "<group>"; };
+		FA054A77142D0BBE006C5EAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA054A79142D0BBE006C5EAB /* ReviewMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewMacAppDelegate.h; sourceTree = "<group>"; };
+		FA054A7A142D0BBE006C5EAB /* ReviewMacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewMacAppDelegate.m; sourceTree = "<group>"; };
+		FA054A7D142D0BBF006C5EAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA054A84142D0E5F006C5EAB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FA1A0B101577C6D300008B84 /* EtherZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtherZip.h; sourceTree = "<group>"; };
+		FA1A0B111577C6D300008B84 /* EtherZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtherZip.m; sourceTree = "<group>"; };
+		FA2F9ED21433A93500D996A4 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		FA2F9ED31433A93500D996A4 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		FA2F9ED41433A93500D996A4 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		FA2F9ED51433A93500D996A4 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		FA2F9ED61433A93500D996A4 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		FA2F9ED71433A93500D996A4 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		FA2F9ED81433A93500D996A4 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		FA2F9ED91433A93500D996A4 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		FA2F9EDA1433A93500D996A4 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		FA2F9EE31433A94900D996A4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FABEBEBD144A0EC30000E372 /* RCLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLib.h; sourceTree = "<group>"; };
+		FABEBEBE144A0EC30000E372 /* RCLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLib.m; sourceTree = "<group>"; };
+		FABEBEF8144BB0290000E372 /* Untitled.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Untitled.icns; sourceTree = "<group>"; };
+		FABEBEFE144BB24E0000E372 /* InstallerForReviewClient.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstallerForReviewClient.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABEBF00144BB24E0000E372 /* InstallerPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstallerPlugins.framework; path = System/Library/Frameworks/InstallerPlugins.framework; sourceTree = SDKROOT; };
+		FABEBF04144BB24F0000E372 /* InstallerForReviewClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstallerForReviewClient-Info.plist"; sourceTree = "<group>"; };
+		FABEBF06144BB24F0000E372 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FABEBF08144BB24F0000E372 /* InstallerForReviewClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstallerForReviewClient-Prefix.pch"; sourceTree = "<group>"; };
+		FABEBF09144BB24F0000E372 /* InstallerForReviewClientPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstallerForReviewClientPane.h; sourceTree = "<group>"; };
+		FABEBF0A144BB24F0000E372 /* InstallerForReviewClientPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstallerForReviewClientPane.m; sourceTree = "<group>"; };
+		FABEBF0D144BB24F0000E372 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InstallerForReviewClient.xib; sourceTree = "<group>"; };
+		FABEBF10144BB24F0000E372 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FABEBF12144BB24F0000E372 /* InstallerSections.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InstallerSections.plist; sourceTree = "<group>"; };
+		FAE53E941450B81D00B26783 /* RCFDLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFDLib.h; sourceTree = "<group>"; };
+		FAE53E951450B81D00B26783 /* RCFDLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFDLib.m; sourceTree = "<group>"; };
+		FAE53EE91451C51B00B26783 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAE53F2014531CAB00B26783 /* RCCS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCS.h; sourceTree = "<group>"; };
+		FAE53F2114531CAB00B26783 /* RCCS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCS.m; sourceTree = "<group>"; };
+		FAE53F2914533E5600B26783 /* R with eye.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "R with eye.psd"; sourceTree = "<group>"; };
+		FAE53F2B14533EEC00B26783 /* ReviewClient.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ReviewClient.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA054A60142D0BBE006C5EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE53EEA1451C51B00B26783 /* SystemConfiguration.framework in Frameworks */,
+				FA2F9EE41433A94900D996A4 /* libz.dylib in Frameworks */,
+				FA054A85142D0E5F006C5EAB /* WebKit.framework in Frameworks */,
+				FA054A68142D0BBE006C5EAB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEBEFB144BB24E0000E372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABEBEFF144BB24E0000E372 /* Cocoa.framework in Frameworks */,
+				FABEBF01144BB24E0000E372 /* InstallerPlugins.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA054A58142D0BBE006C5EAB = {
+			isa = PBXGroup;
+			children = (
+				FAE53F2B14533EEC00B26783 /* ReviewClient.icns */,
+				FAE53F2914533E5600B26783 /* R with eye.psd */,
+				FABEBEF8144BB0290000E372 /* Untitled.icns */,
+				FA2F9EE31433A94900D996A4 /* libz.dylib */,
+				FA054A6D142D0BBE006C5EAB /* ReviewMac */,
+				FABEBF02144BB24F0000E372 /* InstallerForReviewClient */,
+				FA054A66142D0BBE006C5EAB /* Frameworks */,
+				FA054A64142D0BBE006C5EAB /* Products */,
+				FA2F9ED01433A93500D996A4 /* ZipArchive */,
+			);
+			sourceTree = "<group>";
+		};
+		FA054A64142D0BBE006C5EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA054A63142D0BBE006C5EAB /* ReviewMac.app */,
+				FABEBEFE144BB24E0000E372 /* InstallerForReviewClient.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA054A66142D0BBE006C5EAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE53EE91451C51B00B26783 /* SystemConfiguration.framework */,
+				FA054A84142D0E5F006C5EAB /* WebKit.framework */,
+				FA054A67142D0BBE006C5EAB /* Cocoa.framework */,
+				FABEBF00144BB24E0000E372 /* InstallerPlugins.framework */,
+				FA054A69142D0BBE006C5EAB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA054A69142D0BBE006C5EAB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA054A6A142D0BBE006C5EAB /* AppKit.framework */,
+				FA054A6B142D0BBE006C5EAB /* CoreData.framework */,
+				FA054A6C142D0BBE006C5EAB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA054A6D142D0BBE006C5EAB /* ReviewMac */ = {
+			isa = PBXGroup;
+			children = (
+				FA054A79142D0BBE006C5EAB /* ReviewMacAppDelegate.h */,
+				FA054A7A142D0BBE006C5EAB /* ReviewMacAppDelegate.m */,
+				FA054A7C142D0BBF006C5EAB /* MainMenu.xib */,
+				FA054A6E142D0BBE006C5EAB /* Supporting Files */,
+				FABEBEBD144A0EC30000E372 /* RCLib.h */,
+				FABEBEBE144A0EC30000E372 /* RCLib.m */,
+				FAE53E941450B81D00B26783 /* RCFDLib.h */,
+				FAE53E951450B81D00B26783 /* RCFDLib.m */,
+				FAE53F2014531CAB00B26783 /* RCCS.h */,
+				FAE53F2114531CAB00B26783 /* RCCS.m */,
+			);
+			path = ReviewMac;
+			sourceTree = "<group>";
+		};
+		FA054A6E142D0BBE006C5EAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA054A6F142D0BBE006C5EAB /* ReviewMac-Info.plist */,
+				FA054A70142D0BBE006C5EAB /* InfoPlist.strings */,
+				FA054A73142D0BBE006C5EAB /* main.m */,
+				FA054A75142D0BBE006C5EAB /* ReviewMac-Prefix.pch */,
+				FA054A76142D0BBE006C5EAB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2F9ED01433A93500D996A4 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				FA1A0B101577C6D300008B84 /* EtherZip.h */,
+				FA1A0B111577C6D300008B84 /* EtherZip.m */,
+				FA2F9ED11433A93500D996A4 /* minizip */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		FA2F9ED11433A93500D996A4 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F9ED21433A93500D996A4 /* crypt.h */,
+				FA2F9ED31433A93500D996A4 /* ioapi.c */,
+				FA2F9ED41433A93500D996A4 /* ioapi.h */,
+				FA2F9ED51433A93500D996A4 /* mztools.c */,
+				FA2F9ED61433A93500D996A4 /* mztools.h */,
+				FA2F9ED71433A93500D996A4 /* unzip.c */,
+				FA2F9ED81433A93500D996A4 /* unzip.h */,
+				FA2F9ED91433A93500D996A4 /* zip.c */,
+				FA2F9EDA1433A93500D996A4 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		FABEBF02144BB24F0000E372 /* InstallerForReviewClient */ = {
+			isa = PBXGroup;
+			children = (
+				FABEBF09144BB24F0000E372 /* InstallerForReviewClientPane.h */,
+				FABEBF0A144BB24F0000E372 /* InstallerForReviewClientPane.m */,
+				FABEBF0C144BB24F0000E372 /* InstallerForReviewClient.xib */,
+				FABEBF0F144BB24F0000E372 /* Localizable.strings */,
+				FABEBF12144BB24F0000E372 /* InstallerSections.plist */,
+				FABEBF03144BB24F0000E372 /* Supporting Files */,
+			);
+			path = InstallerForReviewClient;
+			sourceTree = "<group>";
+		};
+		FABEBF03144BB24F0000E372 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABEBF04144BB24F0000E372 /* InstallerForReviewClient-Info.plist */,
+				FABEBF05144BB24F0000E372 /* InfoPlist.strings */,
+				FABEBF08144BB24F0000E372 /* InstallerForReviewClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA054A62142D0BBE006C5EAB /* ReviewMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA054A81142D0BBF006C5EAB /* Build configuration list for PBXNativeTarget "ReviewMac" */;
+			buildPhases = (
+				FA054A5F142D0BBE006C5EAB /* Sources */,
+				FA054A60142D0BBE006C5EAB /* Frameworks */,
+				FA054A61142D0BBE006C5EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReviewMac;
+			productName = ReviewMac;
+			productReference = FA054A63142D0BBE006C5EAB /* ReviewMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABEBEFD144BB24E0000E372 /* InstallerForReviewClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABEBF14144BB24F0000E372 /* Build configuration list for PBXNativeTarget "InstallerForReviewClient" */;
+			buildPhases = (
+				FABEBEFA144BB24E0000E372 /* Sources */,
+				FABEBEFB144BB24E0000E372 /* Frameworks */,
+				FABEBEFC144BB24E0000E372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstallerForReviewClient;
+			productName = InstallerForReviewClient;
+			productReference = FABEBEFE144BB24E0000E372 /* InstallerForReviewClient.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA054A5A142D0BBE006C5EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FA054A5D142D0BBE006C5EAB /* Build configuration list for PBXProject "ReviewMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA054A58142D0BBE006C5EAB;
+			productRefGroup = FA054A64142D0BBE006C5EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA054A62142D0BBE006C5EAB /* ReviewMac */,
+				FABEBEFD144BB24E0000E372 /* InstallerForReviewClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA054A61142D0BBE006C5EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA054A72142D0BBE006C5EAB /* InfoPlist.strings in Resources */,
+				FA054A78142D0BBE006C5EAB /* Credits.rtf in Resources */,
+				FA054A7E142D0BBF006C5EAB /* MainMenu.xib in Resources */,
+				FAE53F2A14533E5600B26783 /* R with eye.psd in Resources */,
+				FAE53F2D14533F0900B26783 /* ReviewClient.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEBEFC144BB24E0000E372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABEBF07144BB24F0000E372 /* InfoPlist.strings in Resources */,
+				FABEBF0E144BB24F0000E372 /* InstallerForReviewClient.xib in Resources */,
+				FABEBF11144BB24F0000E372 /* Localizable.strings in Resources */,
+				FABEBF13144BB24F0000E372 /* InstallerSections.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA054A5F142D0BBE006C5EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA054A74142D0BBE006C5EAB /* main.m in Sources */,
+				FA054A7B142D0BBE006C5EAB /* ReviewMacAppDelegate.m in Sources */,
+				FA2F9EDD1433A93500D996A4 /* ioapi.c in Sources */,
+				FA2F9EDE1433A93500D996A4 /* mztools.c in Sources */,
+				FA2F9EDF1433A93500D996A4 /* unzip.c in Sources */,
+				FA2F9EE01433A93500D996A4 /* zip.c in Sources */,
+				FABEBEBF144A0EC30000E372 /* RCLib.m in Sources */,
+				FAE53E961450B81D00B26783 /* RCFDLib.m in Sources */,
+				FAE53F2214531CAB00B26783 /* RCCS.m in Sources */,
+				FA1A0B121577C6D300008B84 /* EtherZip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABEBEFA144BB24E0000E372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABEBF0B144BB24F0000E372 /* InstallerForReviewClientPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA054A70142D0BBE006C5EAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA054A71142D0BBE006C5EAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA054A76142D0BBE006C5EAB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA054A77142D0BBE006C5EAB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA054A7C142D0BBF006C5EAB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA054A7D142D0BBF006C5EAB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FABEBF05144BB24F0000E372 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABEBF06144BB24F0000E372 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FABEBF0C144BB24F0000E372 /* InstallerForReviewClient.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABEBF0D144BB24F0000E372 /* en */,
+			);
+			name = InstallerForReviewClient.xib;
+			sourceTree = "<group>";
+		};
+		FABEBF0F144BB24F0000E372 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABEBF10144BB24F0000E372 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA054A7F142D0BBF006C5EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA054A80142D0BBF006C5EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA054A82142D0BBF006C5EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReviewMac/ReviewMac-Prefix.pch";
+				INFOPLIST_FILE = "ReviewMac/ReviewMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA054A83142D0BBF006C5EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReviewMac/ReviewMac-Prefix.pch";
+				INFOPLIST_FILE = "ReviewMac/ReviewMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FABEBF15144BB24F0000E372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstallerForReviewClient/InstallerForReviewClient-Prefix.pch";
+				INFOPLIST_FILE = "InstallerForReviewClient/InstallerForReviewClient-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FABEBF16144BB24F0000E372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstallerForReviewClient/InstallerForReviewClient-Prefix.pch";
+				INFOPLIST_FILE = "InstallerForReviewClient/InstallerForReviewClient-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA054A5D142D0BBE006C5EAB /* Build configuration list for PBXProject "ReviewMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA054A7F142D0BBF006C5EAB /* Debug */,
+				FA054A80142D0BBF006C5EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA054A81142D0BBF006C5EAB /* Build configuration list for PBXNativeTarget "ReviewMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA054A82142D0BBF006C5EAB /* Debug */,
+				FA054A83142D0BBF006C5EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABEBF14144BB24F0000E372 /* Build configuration list for PBXNativeTarget "InstallerForReviewClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABEBF15144BB24F0000E372 /* Debug */,
+				FABEBF16144BB24F0000E372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA054A5A142D0BBE006C5EAB /* Project object */;
+}
