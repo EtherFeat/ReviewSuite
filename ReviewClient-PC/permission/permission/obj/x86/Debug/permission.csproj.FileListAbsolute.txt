@@ -1,0 +1,21 @@
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\bin\Debug\Permission.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\bin\Debug\Permission.pdb
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\obj\x86\Debug\permission.MainForm.resources
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\obj\x86\Debug\permission.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\obj\x86\Debug\Permission.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\permission\permission\obj\x86\Debug\Permission.pdb
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\bin\Debug\Permission.exe
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\bin\Debug\Permission.pdb
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\obj\x86\Debug\permission.MainForm.resources
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\obj\x86\Debug\permission.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\obj\x86\Debug\Permission.exe
+C:\Users\Alex\Documents\Visual Studio 2008\ReviewClient\permission\permission\obj\x86\Debug\Permission.pdb
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\bin\Debug\Permission.exe
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\bin\Debug\Permission.pdb
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Debug\permission.MainForm.resources
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Debug\permission.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Debug\Permission.exe
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Debug\Permission.pdb

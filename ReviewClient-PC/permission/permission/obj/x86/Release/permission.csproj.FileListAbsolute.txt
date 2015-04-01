@@ -1,0 +1,5 @@
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\bin\Release\Permission.exe
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Release\permission.MainForm.resources
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Release\permission.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2008\Projects\ReviewClient(svn)\permission\permission\obj\x86\Release\Permission.exe
